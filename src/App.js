@@ -81,8 +81,9 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1 className="headline">Tic Tac Toe</h1>
+      <div className="turn">Curernt player: {player}</div>
       <div className="field" ref={fieldRef}>
         {field.map((item, index) => (
           <span key={index} className="tile-span">
