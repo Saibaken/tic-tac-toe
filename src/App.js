@@ -98,7 +98,7 @@ function App() {
           </span>
         ))}
       </div>
-      <button onClick={reset}>Reset</button>
+      <button className="reset-button" onClick={reset}>Reset</button>
     </div>
   );
 }
