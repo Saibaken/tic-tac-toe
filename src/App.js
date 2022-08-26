@@ -99,9 +99,6 @@ function App() {
       <button className="reset-button" onClick={reset}>
         Reset
       </button>
-      <button className="reset-button" onClick={() => alert(winner)}>
-        Get winner
-      </button>
     </div>
   );
 }
