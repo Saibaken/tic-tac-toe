@@ -103,6 +103,7 @@ body {
 
 .tile-span :disabled {
   box-shadow: black 0px 0px 0px 0px;
+  color: white !important;
 }
 
 .reset-button {
@@ -118,7 +119,7 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1a1a1a;
-    color: white
+    color: white;
   }
   .game-tile {
     background-color: rgb(48, 59, 93);
